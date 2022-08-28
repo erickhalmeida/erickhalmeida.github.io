@@ -49,6 +49,10 @@
                                 <a class="nav-link" aria-current="page" href="#sobre">Sobre</a>
                             </li>
 
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#tecnologias">Tecnologias</a>
+                            </li>
+
                         </ul>
             
                     </div>
@@ -66,14 +70,17 @@
                 <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
 
                     <div class="col-10 col-sm-8 col-lg-6">
-                        <img src="assets/img/bg.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+                        <img src="assets/img/bg.png" class="d-block mx-lg-auto img-fluid pulse" alt="" width="700" height="500" loading="lazy">
                     </div>
 
                     <div class="col-lg-6">
+
+                        <div class="typing-container">
+                            <span id="sentence" class="sentence display-5 fw-bold lh-1 mb-1 text-gold"></span>
+                            <span class="input-cursor"></span>
+                        </div>
                         
-                        <h1 class="display-5 fw-bold lh-1 mb-1 text-gold">Erick Almeida</h1>
-                        
-                        <p class="lead">Fullstack web developer</p>
+                        <p class="lead p-text">Full stack web developer</p>
 
                         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
                             <button type="button" class="btn btn-dark btn-lg px-4 me-md-2" onclick="redirect('https://github.com/erickhalmeida')"><i class="fa-brands fa-github"></i> GitHub</button>
@@ -90,7 +97,7 @@
 
                 <div class="container">
 
-                    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center">
+                    <div class="row pb-0 pe-lg-0 align-items-center">
 
                         <div class="col-lg-3 offset-lg-1 p-0 overflow-hidden">
                             <img class="rounded-lg-3 img-thumbnail rounded-circle" src="assets/img/me.png" alt="">
@@ -105,6 +112,62 @@
                         </div>
                        
                       </div>
+
+                </div>
+
+            </div>
+
+            <div class="container col-xl-10 col-xxl-8 px-4 py-5" id="tecnologias">
+
+                <div class="row align-items-center g-lg-5 py-2">
+
+                    <div class="col-12 text-center">
+                        <h2 class="display-6 fw-bold lh-1 mb-3">Tecnologias</h2>
+                    </div>
+
+                    <div class="col-12">
+
+                        <div class="row justify-content-center">
+
+                            <div class="col-2 text-center pulse">
+
+                                <img src="assets/img/html5.png">
+
+                            </div>
+
+                            <div class="col-2 text-center pulse">
+
+                                <img src="assets/img/css3.png">
+
+                            </div>
+
+                            <div class="col-2 text-center pulse">
+
+                                <img src="assets/img/javascript.png">
+
+                            </div>
+
+                            <div class="col-2 text-center pulse">
+
+                                <img src="assets/img/php.png">
+
+                            </div>
+
+                            <div class="col-2 text-center pulse">
+
+                                <img src="assets/img/mysql.png">
+
+                            </div>
+
+                            <div class="col-2 text-center pulse">
+
+                                <img src="assets/img/bootstrap.png">
+
+                            </div>
+
+                        </div>
+
+                    </div>
 
                 </div>
 
@@ -134,6 +197,9 @@
                 window.open(url, '_blank');
             }
         </script>
+        <!-- Typing effect -->
+        <script src="assets/js/typing.js"></script>
+        <script> typeSentence("Erick Almeida", "#sentence"); </script>
 
     </body>
 

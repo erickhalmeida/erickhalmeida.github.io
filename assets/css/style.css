@@ -36,6 +36,19 @@ body{
     color: gold;
 }
 
+.pulse {
+    animation: pulse 1s infinite ease-in-out alternate;
+}
+
+@keyframes pulse {
+    from { transform: scale(1); }
+    to { transform: scale(1.02); }
+}
+
+.p-text{
+    margin-left: 2px;
+}
+
 footer{
     height: 40px;
     border-top: 1px solid gold;
@@ -52,3 +65,21 @@ footer a:hover{
     color: goldenrod;
     text-decoration: none;
 }
+
+.input-cursor {
+    display: inline-block;
+    width: 2px;
+    height: 36px;
+    background-color: white;
+    margin-left: 4px;
+    animation: blink .6s linear infinite alternate;
+}
+
+
+@keyframes blink {
+    0% {opacity: 1;}
+    40% {opacity: 1;}
+    60% {opacity: 0;}
+    100% {opacity: 0;}
+}
+  
