@@ -1,0 +1,54 @@
+body{
+    background: #343a40;
+    color: white;
+}
+
+.navbar{
+    text-transform: uppercase;
+    background: rgb(33, 37, 41, 0.7);
+    transition: 0.5s;
+    border-bottom: 1px solid gold;
+}
+
+.navbar:hover{
+    background: rgb(33, 37, 41, 1);
+    transition: 0.5s;
+}
+
+.nav-link{
+    color: white;
+}
+
+.nav-link:hover{
+    color: gold;
+}
+
+.eha-logo{
+    transition: 0.5s;
+}
+
+.eha-logo:hover{
+    color: gold;
+    transition: 0.5s;
+}
+
+.text-gold{
+    color: gold;
+}
+
+footer{
+    height: 40px;
+    border-top: 1px solid gold;
+    font-weight: lighter;
+}
+
+footer a{
+    text-decoration: none;
+    color: gold;
+    font-weight: bold;
+}
+
+footer a:hover{
+    color: goldenrod;
+    text-decoration: none;
+}

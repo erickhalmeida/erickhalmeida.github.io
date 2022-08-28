@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Icone -->
+        <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+        <!-- Title -->
+        <title>Erick Almeida</title>
+        
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="assets/vendor/fontawesome/css/all.min.css">
+        <!-- Style -->
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <!-- jQuery -->
+        <script src="assets/vendor/jquery/jquery-3.6.1.min.js"></script>
+
+    </head>
+
+    <body>
+
+        <header>
+
+            <nav class="navbar navbar-expand-lg navbar-dark shadow fixed-top">
+
+                <div class="container">
+
+                    <a class="navbar-brand eha-logo" href="#">‹EHA›</a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#home">Home</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#sobre">Sobre</a>
+                            </li>
+
+                        </ul>
+            
+                    </div>
+
+                </div>
+
+            </nav>
+
+        </header>
+
+        <main>
+
+            <div class="container col-xxl-8 px-4 py-5 text-uppercase" id="home">
+
+                <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+
+                    <div class="col-10 col-sm-8 col-lg-6">
+                        <img src="assets/img/bg.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+                    </div>
+
+                    <div class="col-lg-6">
+                        
+                        <h1 class="display-5 fw-bold lh-1 mb-1 text-gold">Erick Almeida</h1>
+                        
+                        <p class="lead">Fullstack web developer</p>
+
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                            <button type="button" class="btn btn-dark btn-lg px-4 me-md-2"><i class="fa-brands fa-github" onclick="redirect('https://github.com/erickhalmeida')"></i> GitHub</button>
+                            <button type="button" class="btn btn-primary btn-lg px-4" onclick="redirect('https://www.linkedin.com/in/ehalmeida/')"><i class="fa-brands fa-linkedin"></i> LinkedIn</button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="container-fluid col-xxl-12 px-4 py-5 bg-dark" id="sobre">
+
+                <div class="container">
+
+                    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center">
+
+                        <div class="col-lg-3 offset-lg-1 p-0 overflow-hidden">
+                            <img class="rounded-lg-3 img-thumbnail rounded-circle" src="assets/img/me.png" alt="">
+                        </div>
+
+                        <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+
+                            <h2 class="display-6 fw-bold lh-1">Sobre</h2>
+
+                            <p class="lead">Estudante de análise e desenvolvimento de sistemas.</p>
+
+                        </div>
+                       
+                      </div>
+
+                </div>
+
+            </div>
+
+        </main>
+
+        <footer class="bg-dark shadow mt-4 pt-2">
+
+            <div class="container">
+
+                <div class="text-center">
+                    
+                    Desenvolvido por <a href="https://github.com/erickhalmeida" target="_blank">Erick Almeida</a>
+
+                </div>
+
+            </div>
+
+        </footer>
+
+        <!-- Bootstrap -->
+        <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <!-- Redirect -->
+        <script>
+            function redirect(url){
+                window.open(url, '_blank');
+            }
+        </script>
+
+    </body>
+
+</html>
