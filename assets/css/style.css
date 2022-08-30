@@ -50,6 +50,14 @@ body{
     margin-left: 2px;
 }
 
+.card{
+    border: 2px solid gold;
+}
+
+.card-body{
+    background: rgba(0, 0, 0, 0.795);
+}
+
 footer{
     height: 40px;
     border-top: 1px solid gold;
