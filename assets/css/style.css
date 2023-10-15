@@ -50,9 +50,11 @@ body{
     margin-left: 2px;
 }
 
+
 .card{
     border: 2px solid gold;
 }
+
 
 .card-body{
     background: rgba(0, 0, 0, 0.795);
@@ -92,3 +94,16 @@ footer a:hover{
     100% {opacity: 0;}
 }
   
+.img-16 {
+    height: 16px;
+    width: 16px;
+}
+
+.img-24 {
+    height: 24px;
+    width: 24px;
+}
+
+.list-group-item {
+    border: rgba(255, 217, 0, 0.075) solid;
+}
